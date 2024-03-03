@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(169, 157, 255);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffea;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  padding-top: 50px;
+}
+
+#time {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicjumbo.com%2Ffree-photos%2Fclouds%2Fpage%2F2%2F&psig=AOvVaw19YrtcXUEW2sRgycxW_T7C&ust=1709550055821000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICymLD414QDFQAAAAAdAAAAABAE");
+  font-size: 98px;
+  padding-top: 10px;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #4580ff, rgb(255, 99, 192));
+}
+
+#loginForm input {
+  margin: 2px;
+  padding: 5px;
+}
+
+#loginForm button {
+  margin: 1px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #ae7fff;
+  color: white;
+  border: none;
+}
+
+#loginForm button:hover {
+  background-color: #5122a3;
+}
+
+#todo {
+  background-color: rgba(30, 3, 56, 0.407);
+}
+
+#todo input {
+  margin: 5px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+#todo button {
+  margin: 5px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: #ae7fff;
+  color: white;
+  border: none;
+}
+
+#todo button:hover {
+  background-color: #ae7fff;
+}
+
+#location {
+  text-align: left;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #17ecff72;
+  color: white;
+}
+
+#weather {
+  text-align: left;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #fe44ee72;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#todolist {
+  text-align: left;
+  cursor: pointer;
+  color: white;
+}

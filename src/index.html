@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="hidden" id="loginForm">
+        <input type="text" id="username" placeholder="Username" required/>
+        <button type="submit">Login</button>
+      </form>
+      <h3 class="hidden" id="greeting"></h3>
+      <div id="clock">
+        <div id="date"></div>
+        <h2 id="time"></h2>
+      </div>
+
+      <div id="weatherlocation">
+        <h2 id="location">Location</h2>
+        <div id="locationData1"></div>
+        <div id="locationData2"></div>
+        <h2 id="weather">Weather</h2>
+        <div id="weatherData"></div>
+      </div>
+
+      <div id="todo">
+        <h1>Daily List</h1>
+        <form id="todoform">
+          <input type="text" id="taskInput" placeholder="task name" required/>
+          <button type="submit">Add</button>
+          <ul id="todolist"></ul>
+        </form>
+      </div>
+    <script src="index.js"></script>
+    <script src="images.js"></script>
+  </body>
+</html>
